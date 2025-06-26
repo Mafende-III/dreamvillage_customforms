@@ -1,0 +1,281 @@
+<!-- DHIS2 Custom Form with Tabbed Interface --><!-- Tab Navigation -->
+<div class="tab-navigation"><button class="tab-button active" onclick="openTab(event, 'tab-recipients')">Recipients of Care</button><button class="tab-button" onclick="openTab(event, 'tab-viral-load')">Viral Load Results</button><button class="tab-button" onclick="openTab(event, 'tab-arv-treatment')">ARV Treatment Lines</button></div>
+<!-- Tab Content -->
+
+<div class="tab-content"><!-- Tab 1: Recipients of Care -->
+<div class="tab-pane active" id="tab-recipients">
+<div class="section-header">
+<h2>RECIPIENTS OF CARE</h2>
+</div>
+
+<table class="entryForm">
+	<thead>
+		<tr>
+			<th style="background-color: #d9d9d9; text-align: center; vertical-align: middle; width: 100px; line-height: 1.3;">SEX<br />
+			IGITSINA</th>
+			<th style="background-color: #d9d9d9; text-align: center; width: 50px;">&lt; 1<br />
+			year</th>
+			<th style="background-color: #d9d9d9; text-align: center; width: 50px;">1-4<br />
+			years</th>
+			<th style="background-color: #d9d9d9; text-align: center; width: 50px;">5-7<br />
+			years</th>
+			<th style="background-color: #d9d9d9; text-align: center; width: 50px;">8-10<br />
+			years</th>
+			<th style="background-color: #d9d9d9; text-align: center; width: 50px;">11-14<br />
+			years</th>
+			<th style="background-color: #d9d9d9; text-align: center; width: 50px;">15-19<br />
+			years</th>
+			<th style="background-color: #d9d9d9; text-align: center; width: 50px;">20-24<br />
+			years</th>
+			<th style="background-color: #d9d9d9; text-align: center; width: 50px;">25-27<br />
+			years</th>
+		</tr>
+	</thead>
+	<tbody><!-- Male row -->
+		<tr>
+			<td style="text-align: left; padding-left: 10px; font-weight: bold;">Male Gabo</td>
+			<td><input id="gFToZlCj9F0-tVcZpODCtnz-val" name="entryfield" title="CATS HIV Recipient of Care Male, &lt; 1" value="[ CATS HIV Recipient of Care Male, &lt; 1 ]" /></td>
+			<td><input id="gFToZlCj9F0-EzpT3sEVv7m-val" name="entryfield" title="CATS HIV Recipient of Care Male, 1-4" value="[ CATS HIV Recipient of Care Male, 1-4 ]" /></td>
+			<td><input id="gFToZlCj9F0-g9iQPUlQcSl-val" name="entryfield" title="CATS HIV Recipient of Care Male, 5-7" value="[ CATS HIV Recipient of Care Male, 5-7 ]" /></td>
+			<td><input id="gFToZlCj9F0-nCrEnWRzq38-val" name="entryfield" title="CATS HIV Recipient of Care Male, 8-10" value="[ CATS HIV Recipient of Care Male, 8-10 ]" /></td>
+			<td><input id="gFToZlCj9F0-a5qkiLtDIxd-val" name="entryfield" title="CATS HIV Recipient of Care Male, 11-14" value="[ CATS HIV Recipient of Care Male, 11-14 ]" /></td>
+			<td><input id="gFToZlCj9F0-DP2NNvMFVky-val" name="entryfield" title="CATS HIV Recipient of Care Male, 15-19" value="[ CATS HIV Recipient of Care Male, 15-19 ]" /></td>
+			<td><input id="gFToZlCj9F0-oI1uE3YTwQr-val" name="entryfield" title="CATS HIV Recipient of Care Male, 20-24" value="[ CATS HIV Recipient of Care Male, 20-24 ]" /></td>
+			<td><input id="gFToZlCj9F0-bQP4kxixBD8-val" name="entryfield" title="CATS HIV Recipient of Care Male, 25-27" value="[ CATS HIV Recipient of Care Male, 25-27 ]" /></td>
+		</tr>
+		<!-- Female row -->
+		<tr>
+			<td style="text-align: left; padding-left: 10px; font-weight: bold;">Female Gore</td>
+			<td><input id="gFToZlCj9F0-wCZNbYUeN6O-val" name="entryfield" title="CATS HIV Recipient of Care Female, &lt; 1" value="[ CATS HIV Recipient of Care Female, &lt; 1 ]" /></td>
+			<td><input id="gFToZlCj9F0-k3xMe8DjE1S-val" name="entryfield" title="CATS HIV Recipient of Care Female, 1-4" value="[ CATS HIV Recipient of Care Female, 1-4 ]" /></td>
+			<td><input id="gFToZlCj9F0-GFRiPhKDDPH-val" name="entryfield" title="CATS HIV Recipient of Care Female, 5-7" value="[ CATS HIV Recipient of Care Female, 5-7 ]" /></td>
+			<td><input id="gFToZlCj9F0-KEaNsspxYeI-val" name="entryfield" title="CATS HIV Recipient of Care Female, 8-10" value="[ CATS HIV Recipient of Care Female, 8-10 ]" /></td>
+			<td><input id="gFToZlCj9F0-BLnESEJ4J06-val" name="entryfield" title="CATS HIV Recipient of Care Female, 11-14" value="[ CATS HIV Recipient of Care Female, 11-14 ]" /></td>
+			<td><input id="gFToZlCj9F0-DLslnsJeZeD-val" name="entryfield" title="CATS HIV Recipient of Care Female, 15-19" value="[ CATS HIV Recipient of Care Female, 15-19 ]" /></td>
+			<td><input id="gFToZlCj9F0-zQDDE5EZuJd-val" name="entryfield" title="CATS HIV Recipient of Care Female, 20-24" value="[ CATS HIV Recipient of Care Female, 20-24 ]" /></td>
+			<td><input id="gFToZlCj9F0-N69BWHid177-val" name="entryfield" title="CATS HIV Recipient of Care Female, 25-27" value="[ CATS HIV Recipient of Care Female, 25-27 ]" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+<!-- Tab 2: Viral Load Results -->
+
+<div class="tab-pane" id="tab-viral-load">
+<div class="section-header">
+<h2>VIRAL LOAD (VL) RESULTS DASHBOARD</h2>
+</div>
+
+<table class="entryForm">
+	<thead>
+		<tr>
+			<th style="background-color: #d9d9d9; text-align: center; vertical-align: middle; width: 120px; line-height: 1.3; height: 40px;">SEX<br />
+			IGITSINA</th>
+			<th style="background-color: #d9d9d9; text-align: center; width: 150px;">SUPPRESSED &lt; 200 VL<br />
+			ABAFITE INGANO YA VIRUSI IRI MUNSI YA 200</th>
+			<th style="background-color: #d9d9d9; text-align: center; width: 150px;">UNSUPPRESSED &gt; 200 VL<br />
+			ABAFITE INGANO YA VIRUSI IRI HEJURU YA 200</th>
+			<th style="background-color: #d9d9d9; text-align: center; width: 150px;">INVALID RESULTS<br />
+			ABO IBISUBIZO BITARABONEKA</th>
+		</tr>
+	</thead>
+	<tbody><!-- Male row -->
+		<tr>
+			<td style="text-align: left; padding-left: 10px; font-weight: bold;">Male Gabo</td>
+			<td><input id="EARDBMfmKwe-c5zDTL1moFC-val" name="entryfield" title=" CATS Viral Load Male, Suppressed (&lt;200)" value="[  CATS Viral Load Male, Suppressed (&lt;200) ]" /></td>
+			<td><input id="EARDBMfmKwe-ATm0fiZ3ici-val" name="entryfield" title=" CATS Viral Load Male, Unsuppressed (&gt;200)" value="[  CATS Viral Load Male, Unsuppressed (&gt;200) ]" /></td>
+			<td><input id="EARDBMfmKwe-eJR89gfeGe9-val" name="entryfield" title=" CATS Viral Load Male, Invalid Results" value="[  CATS Viral Load Male, Invalid Results ]" /></td>
+		</tr>
+		<!-- Female row -->
+		<tr>
+			<td style="text-align: left; padding-left: 10px; font-weight: bold;">Female Gore</td>
+			<td><input id="EARDBMfmKwe-akGj3Ys0A3j-val" name="entryfield" title=" CATS Viral Load Female, Suppressed (&lt;200)" value="[  CATS Viral Load Female, Suppressed (&lt;200) ]" /></td>
+			<td><input id="EARDBMfmKwe-GFdACnjPLf2-val" name="entryfield" title=" CATS Viral Load Female, Unsuppressed (&gt;200)" value="[  CATS Viral Load Female, Unsuppressed (&gt;200) ]" /></td>
+			<td><input id="EARDBMfmKwe-WNkdCaVOKgd-val" name="entryfield" title=" CATS Viral Load Female, Invalid Results" value="[  CATS Viral Load Female, Invalid Results ]" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+<!-- Tab 3: ARV Treatment Lines -->
+
+<div class="tab-pane" id="tab-arv-treatment">
+<div class="section-header">
+<h2>ARV TREATMENT LINES</h2>
+</div>
+
+<table class="entryForm">
+	<thead>
+		<tr>
+			<th style="background-color: #d9d9d9; text-align: center; vertical-align: middle; width: 120px; line-height: 1.3; height: 40px;">SEX<br />
+			IGITSINA</th>
+			<th style="background-color: #d9d9d9; text-align: center; width: 150px;">1st LINE<br />
+			UMURONGO WA MBERE</th>
+			<th style="background-color: #d9d9d9; text-align: center; width: 150px;">2nd LINE<br />
+			UMURONGO WA KABIRI</th>
+			<th style="background-color: #d9d9d9; text-align: center; width: 150px;">3rd LINE<br />
+			UMURONGO WA GATATU</th>
+		</tr>
+	</thead>
+	<tbody><!-- Male row -->
+		<tr>
+			<td style="text-align: left; padding-left: 10px; font-weight: bold;">Male Gabo</td>
+			<td><input id="ktTv5n6SvOx-Du9YJULXg43-val" name="entryfield" title="CATS ARV Treatment Lines Male, 1st Line" value="[ CATS ARV Treatment Lines Male, 1st Line ]" /></td>
+			<td><input id="ktTv5n6SvOx-ilTqUh0tegS-val" name="entryfield" title="CATS ARV Treatment Lines Male, 2nd Line" value="[ CATS ARV Treatment Lines Male, 2nd Line ]" /></td>
+			<td><input id="ktTv5n6SvOx-VnvOUYSRjiA-val" name="entryfield" title="CATS ARV Treatment Lines Male, 3rd Line" value="[ CATS ARV Treatment Lines Male, 3rd Line ]" /></td>
+		</tr>
+		<!-- Female row -->
+		<tr>
+			<td style="text-align: left; padding-left: 10px; font-weight: bold;">Female Gore</td>
+			<td><input id="ktTv5n6SvOx-hPwaUQpZEa5-val" name="entryfield" title="CATS ARV Treatment Lines Female, 1st Line" value="[ CATS ARV Treatment Lines Female, 1st Line ]" /></td>
+			<td><input id="ktTv5n6SvOx-rsKwVfzuc02-val" name="entryfield" title="CATS ARV Treatment Lines Female, 2nd Line" value="[ CATS ARV Treatment Lines Female, 2nd Line ]" /></td>
+			<td><input id="ktTv5n6SvOx-p5QKLDxCLfo-val" name="entryfield" title="CATS ARV Treatment Lines Female, 3rd Line" value="[ CATS ARV Treatment Lines Female, 3rd Line ]" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<style type="text/css">/* Tab Navigation Styling */
+  .tab-navigation {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    border-radius: 4px 4px 0 0;
+  }
+  
+  .tab-button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 12px 16px;
+    transition: 0.3s;
+    font-size: 14px;
+    font-weight: bold;
+    border-right: 1px solid #ddd;
+  }
+  
+  .tab-button:hover {
+    background-color: #ddd;
+  }
+  
+  .tab-button.active {
+    background-color: #ffe8b9;
+    border-bottom: 3px solid #0066cc;
+  }
+  
+  /* Tab Content Styling */
+  .tab-content {
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    padding: 0;
+    background-color: #fff;
+  }
+  
+  .tab-pane {
+    display: none;
+    padding: 0;
+  }
+  
+  .tab-pane.active {
+    display: block;
+  }
+  
+  /* Section Styling */
+  .section-header {
+    background-color: #ffe8b9;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .section-header h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Form Styling */
+  .entryForm {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+  }
+  
+  .entryForm th {
+    border: 1px solid #aaa;
+    padding: 6px;
+    vertical-align: middle;
+  }
+  
+  .entryForm td {
+    border: 1px solid #aaa;
+    padding: 0;
+    height: 34px;
+    vertical-align: middle;
+  }
+  
+  .entryForm input {
+    width: 100%;
+    height: 34px;
+    box-sizing: border-box;
+    border: none;
+    text-align: center;
+    font-size: 13px;
+    padding: 0;
+  }
+  
+  .entryForm input:focus {
+    background-color: #e8f0fe;
+    outline: none;
+  }
+</style>
+<script>
+  // Tab Navigation Functions
+  function openTab(evt, tabId) {
+    // Hide all tab panes
+    var tabPanes = document.getElementsByClassName("tab-pane");
+    for (var i = 0; i < tabPanes.length; i++) {
+      tabPanes[i].classList.remove("active");
+    }
+    
+    // Deactivate all tab buttons
+    var tabButtons = document.getElementsByClassName("tab-button");
+    for (var i = 0; i < tabButtons.length; i++) {
+      tabButtons[i].classList.remove("active");
+    }
+    
+    // Show the selected tab pane and activate the button
+    document.getElementById(tabId).classList.add("active");
+    evt.currentTarget.classList.add("active");
+  }
+  
+  // Wait for the document to be ready
+  document.addEventListener('DOMContentLoaded', function() {
+    // Initialize first tab
+    var firstTabButton = document.querySelector('.tab-button');
+    if (firstTabButton) {
+      firstTabButton.classList.add('active');
+    }
+    
+    var firstTabPane = document.querySelector('.tab-pane');
+    if (firstTabPane) {
+      firstTabPane.classList.add('active');
+    }
+  });
+  
+  // DHIS2 specific events
+  document.addEventListener('dhis2.de.event.formReady', function() {
+    // Initialize first tab
+    var firstTabButton = document.querySelector('.tab-button');
+    if (firstTabButton) {
+      firstTabButton.classList.add('active');
+    }
+    
+    var firstTabPane = document.querySelector('.tab-pane');
+    if (firstTabPane) {
+      firstTabPane.classList.add('active');
+    }
+  });
+</script>
